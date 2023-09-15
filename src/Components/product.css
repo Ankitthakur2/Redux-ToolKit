@@ -1,0 +1,54 @@
+.pro-img {
+  height: 110px;
+  width: 100px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-style: bold;
+  padding: 0.5rem;
+}
+
+.category {
+  font-style: bold;
+}
+
+.productcard {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 300px;
+}
+
+.product:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.btn {
+  margin-bottom: 0.5rem;
+  background-color: skyblue;
+  border: solid grey 1px;
+  border-radius: 5%;
+  padding: 0.3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.rating {
+  margin-bottom: auto;
+}

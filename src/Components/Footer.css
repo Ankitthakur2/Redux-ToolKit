@@ -1,0 +1,8 @@
+.footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: turquoise;
+  margin-top: 2rem;
+}
